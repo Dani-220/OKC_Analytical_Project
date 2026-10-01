@@ -1,0 +1,61 @@
+bin,pred,actual,n,model
+"(0.4,0.45]",0.422872988264153,0.41702121856761,73332,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.3,0.35]",0.330096346667346,0.337186861778869,53371,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.55,0.6]",0.573445814263322,0.554174721531805,21726,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.35,0.4]",0.375199593517774,0.373611148355725,111873,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.45,0.5]",0.472807479374819,0.465766823161189,46008,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.5,0.55]",0.523621576095933,0.505554103502352,30608,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.2,0.25]",0.228780041461121,0.264812575574365,6616,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.65,0.7]",0.673463232223812,0.695387036490607,10167,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.6,0.65]",0.623251424320238,0.623590633130963,14989,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.7,0.75]",0.723506360871892,0.757666953281743,6978,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.25,0.3]",0.27922300389946,0.296812626665848,16283,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.9,0.95]",0.925125818262512,0.953535696116669,11794,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.75,0.8]",0.773889413651616,0.761016276300119,5038,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.85,0.9]",0.876726173942137,0.893770491803279,7625,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.8,0.85]",0.826115986173373,0.779108947959566,5342,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.15,0.2]",0.180021636106787,0.223856209150327,2448,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.1,0.15]",0.130491579926187,0.202623906705539,686,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.95,1]",0.9547440261279,0.977742448330684,629,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.05,0.1]",0.0813394332733189,0.169590643274854,171,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"[0,0.05]",0.0238277836903185,0.428571428571429,35,"1. Logistic baseline (distance, shot type, three, defender dist.)"
+"(0.4,0.45]",0.422246411826606,0.419012161113187,69566,"2. XGBoost, context features only"
+"(0.35,0.4]",0.374597825728165,0.375078179291174,115120,"2. XGBoost, context features only"
+"(0.55,0.6]",0.573233493357927,0.566075610572098,17934,"2. XGBoost, context features only"
+"(0.25,0.3]",0.27915766418595,0.283724724666395,17161,"2. XGBoost, context features only"
+"(0.5,0.55]",0.523254006216567,0.517405921266674,27663,"2. XGBoost, context features only"
+"(0.45,0.5]",0.473453707335025,0.469461403465408,40457,"2. XGBoost, context features only"
+"(0.3,0.35]",0.330078578721277,0.336419381988698,58219,"2. XGBoost, context features only"
+"(0.65,0.7]",0.674185361211528,0.675035868005739,9758,"2. XGBoost, context features only"
+"(0.2,0.25]",0.227685116902901,0.220297699594046,7390,"2. XGBoost, context features only"
+"(0.85,0.9]",0.877198002364687,0.878909740840036,6714,"2. XGBoost, context features only"
+"(0.6,0.65]",0.623835242237597,0.625541295960948,12701,"2. XGBoost, context features only"
+"(0.9,0.95]",0.923823172311756,0.927352453187959,8438,"2. XGBoost, context features only"
+"(0.95,1]",0.973194691278029,0.978566226199147,9611,"2. XGBoost, context features only"
+"(0.7,0.75]",0.723959542163953,0.726479667158771,7451,"2. XGBoost, context features only"
+"(0.8,0.85]",0.824973569263176,0.830395249582483,5389,"2. XGBoost, context features only"
+"(0.75,0.8]",0.774286877658055,0.783283779319458,6054,"2. XGBoost, context features only"
+"(0.15,0.2]",0.178197595431949,0.1632110579479,3762,"2. XGBoost, context features only"
+"(0.05,0.1]",0.0793674629156537,0.0875420875420875,594,"2. XGBoost, context features only"
+"(0.1,0.15]",0.128961554773637,0.0988165680473373,1690,"2. XGBoost, context features only"
+"[0,0.05]",0.0423037346373213,0.297872340425532,47,"2. XGBoost, context features only"
+"(0.35,0.4]",0.37435668329092,0.375736478308276,99969,4. XGBoost + shrunk out-of-fold skill
+"(0.3,0.35]",0.329096368479811,0.339409157603352,66109,4. XGBoost + shrunk out-of-fold skill
+"(0.5,0.55]",0.523252032940362,0.520454203639645,26596,4. XGBoost + shrunk out-of-fold skill
+"(0.25,0.3]",0.279293865113351,0.291776705218104,21962,4. XGBoost + shrunk out-of-fold skill
+"(0.45,0.5]",0.473048033424701,0.466494781466148,40337,4. XGBoost + shrunk out-of-fold skill
+"(0.65,0.7]",0.674557707774046,0.664023411686963,10593,4. XGBoost + shrunk out-of-fold skill
+"(0.2,0.25]",0.228018536755045,0.228953016932984,8386,4. XGBoost + shrunk out-of-fold skill
+"(0.6,0.65]",0.623740916676817,0.616027345233574,13165,4. XGBoost + shrunk out-of-fold skill
+"(0.4,0.45]",0.422851505484561,0.415671998090236,67024,4. XGBoost + shrunk out-of-fold skill
+"(0.85,0.9]",0.876803008904264,0.873385379701916,7045,4. XGBoost + shrunk out-of-fold skill
+"(0.55,0.6]",0.573725845556523,0.559419014084507,18176,4. XGBoost + shrunk out-of-fold skill
+"(0.9,0.95]",0.923975247012583,0.931646744806777,8617,4. XGBoost + shrunk out-of-fold skill
+"(0.95,1]",0.972364030854324,0.978061967144937,9618,4. XGBoost + shrunk out-of-fold skill
+"(0.7,0.75]",0.724104581581606,0.725311203319502,8435,4. XGBoost + shrunk out-of-fold skill
+"(0.8,0.85]",0.824327086323381,0.826916582235731,5922,4. XGBoost + shrunk out-of-fold skill
+"(0.75,0.8]",0.773871479390293,0.7730392872791,6847,4. XGBoost + shrunk out-of-fold skill
+"(0.15,0.2]",0.177737212336647,0.157277535065532,4349,4. XGBoost + shrunk out-of-fold skill
+"(0.05,0.1]",0.0796737974438413,0.0859872611464968,628,4. XGBoost + shrunk out-of-fold skill
+"(0.1,0.15]",0.127986549356013,0.106303418803419,1872,4. XGBoost + shrunk out-of-fold skill
+"[0,0.05]",0.0410856868315866,0.246376811594203,69,4. XGBoost + shrunk out-of-fold skill

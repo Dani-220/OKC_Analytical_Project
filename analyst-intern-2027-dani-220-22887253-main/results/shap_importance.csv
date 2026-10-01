@@ -1,0 +1,37 @@
+feature,mean_abs_shap,label
+distance,0.435222095973763,Shot distance
+contest_pressure,0.143129006741954,Contest pressure (sum 1/dist)
+st_dunk,0.132409642066713,Type: dunk
+abs_y,0.117299765869366,Lateral offset |y|
+def_d050,0.100761689842496,Defender dist. 0.5s before
+shooterspeed,0.0910898324471878,Shooter speed
+x_from_hoop,0.086225411421802,Depth from hoop (x)
+def_skill,0.0626392297362208,Closest defender skill
+contest_mean,0.0609822517400303,Mean contester dist.
+close_1s,0.0567824666801202,Defender closing (1s)
+closestdefdist,0.0524465090540479,Closest defender dist.
+sk_fam,0.0455109447853171,Shooter skill (this shot family)
+shotclock,0.0445163524932899,Shot clock
+dribblesbefore,0.0428472574486712,Dribbles before
+sk_three,0.035066820898542,Shooter skill: three
+sk_rim,0.0336655611487627,Shooter skill: rim
+three,0.0319466952533461,Three-pointer
+sk_mid,0.0313449564720859,Shooter skill: midrange
+angle,0.0277613296765365,Shot angle
+st_layup,0.0192799548965049,Type: layup
+num_contesters,0.0179441598361721,# contesters
+close_025,0.0158318969901997,Defender closing (0.25s)
+st_tip,0.013222775979049,Type: tip
+st_jumper,0.0108016163648746,Type: jumper
+sc_full,0.0070166110712802,Shot clock = 24
+st_post,0.00655452975129883,Type: post
+st_floater,0.00644496015193054,Type: floater
+month_num,0.00638628082915041,Month
+gs_directsecondchance,0.00311138027122233,Second chance
+gs_transition,0.00105695175084682,Transition
+gs_halfcourt,0.000754537860170831,Halfcourt
+late_clock,0.000515144956884546,Late clock (<=4s)
+sc_zero,0.000444961957931191,Shot clock = 0
+corner3,0.000230280880698797,Corner three
+heave,0.00011862528329184,Heave
+st_heave,0,Type: heave

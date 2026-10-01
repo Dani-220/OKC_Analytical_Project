@@ -1,0 +1,51 @@
+train seasons: fe055, 2676a | test seasons: d7a2d 
+
+== Holding out season fe055 ==
+raw skill: best rounds 516 
+shrunk skill: best rounds 522 
+volume skill: best rounds 195 
+        logistic      xgb_context    xgb_skill_raw xgb_skill_shrunk 
+       0.6370073        0.6247287        0.6236479        0.6228967 
+xgb_skill_volume  xgb_skill_leaky 
+       0.6258736        0.6243942 
+
+== Holding out season 2676a ==
+raw skill: best rounds 559 
+shrunk skill: best rounds 634 
+volume skill: best rounds 334 
+        logistic      xgb_context    xgb_skill_raw xgb_skill_shrunk 
+       0.6404827        0.6279956        0.6265390        0.6261154 
+xgb_skill_volume  xgb_skill_leaky 
+       0.6272588        0.6282980 
+
+Blend weight on XGBoost: 1 
+                                                               model
+                                                              <char>
+1: 1. Logistic baseline (distance, shot type, three, defender dist.)
+2:                                 2. XGBoost, context features only
+3:                     x. XGBoost + skill computed in-sample (leaky)
+4:                     3. XGBoost + raw (unshrunk) out-of-fold skill
+5:               x. XGBoost + shrunk skill + shooter volume/3PA rate
+6:                             4. XGBoost + shrunk out-of-fold skill
+7:                           5. Blend (1.00 XGBoost / 0.00 logistic)
+8:                          6a. Blend + Platt scaling (cross-fitted)
+9:                               6b. Blend + isotonic (cross-fitted)
+                 id    pooled holdout_fe055 holdout_2676a null_model
+             <char>     <num>         <num>         <num>      <num>
+1:         logistic 0.6387417     0.6370073     0.6404827  0.6896268
+2:      xgb_context 0.6263591     0.6247287     0.6279956  0.6896268
+3:  xgb_skill_leaky 0.6263424     0.6243942     0.6282980  0.6896268
+4:    xgb_skill_raw 0.6250907     0.6236479     0.6265390  0.6896268
+5: xgb_skill_volume 0.6265649     0.6258736     0.6272588  0.6896268
+6: xgb_skill_shrunk 0.6245030     0.6228967     0.6261154  0.6896268
+7:            blend 0.6245030     0.6228967     0.6261154  0.6896268
+8:            platt 0.6245850     0.6229874     0.6261887  0.6896268
+9:         isotonic 0.6249606     0.6236447     0.6262815  0.6896268
+Calibration choice: none (gain -0.00008)
+Final boosting rounds: 665 
+
+== Final fit ==
+submission.csv written: 213977 rows, mean make_prob 0.4561 (train make rate 0.4581 )
+[1] TRUE
+
+Done.

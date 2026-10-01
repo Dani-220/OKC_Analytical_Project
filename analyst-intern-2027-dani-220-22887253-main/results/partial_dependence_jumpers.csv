@@ -1,0 +1,68 @@
+value,make_prob,feature
+8,0.566166521437466,Shot distance (ft)
+9,0.555651988521218,Shot distance (ft)
+10,0.539513358961046,Shot distance (ft)
+11,0.53356094115451,Shot distance (ft)
+12,0.528887880360335,Shot distance (ft)
+13,0.511849128159881,Shot distance (ft)
+14,0.504369227942824,Shot distance (ft)
+15,0.480684713430703,Shot distance (ft)
+16,0.477369590318948,Shot distance (ft)
+17,0.467763489153236,Shot distance (ft)
+18,0.435869874828309,Shot distance (ft)
+19,0.422968814195693,Shot distance (ft)
+20,0.407535723868757,Shot distance (ft)
+21,0.402401729026064,Shot distance (ft)
+22,0.394487921771407,Shot distance (ft)
+23,0.384940698266774,Shot distance (ft)
+24,0.353471537037939,Shot distance (ft)
+25,0.347948494385555,Shot distance (ft)
+26,0.344843414011598,Shot distance (ft)
+27,0.33601472622864,Shot distance (ft)
+28,0.310984659234062,Shot distance (ft)
+29,0.301851140096784,Shot distance (ft)
+30,0.293231687228754,Shot distance (ft)
+1,0.257229433885217,Closest defender distance at release (ft)
+1.5,0.263531665243953,Closest defender distance at release (ft)
+2,0.281088023833931,Closest defender distance at release (ft)
+2.5,0.291231843283027,Closest defender distance at release (ft)
+3,0.312875314953178,Closest defender distance at release (ft)
+3.5,0.316608010570705,Closest defender distance at release (ft)
+4,0.336513828153908,Closest defender distance at release (ft)
+4.5,0.348605107969046,Closest defender distance at release (ft)
+5,0.370813685588539,Closest defender distance at release (ft)
+5.5,0.378467900156975,Closest defender distance at release (ft)
+6,0.38692783716023,Closest defender distance at release (ft)
+6.5,0.393318812264502,Closest defender distance at release (ft)
+7,0.403403276066482,Closest defender distance at release (ft)
+7.5,0.403349767121673,Closest defender distance at release (ft)
+8,0.410431600180268,Closest defender distance at release (ft)
+8.5,0.412126327973604,Closest defender distance at release (ft)
+9,0.414128419286013,Closest defender distance at release (ft)
+9.5,0.412744308333099,Closest defender distance at release (ft)
+10,0.407488824857771,Closest defender distance at release (ft)
+10.5,0.410317899127305,Closest defender distance at release (ft)
+11,0.413613621738553,Closest defender distance at release (ft)
+11.5,0.41209063603878,Closest defender distance at release (ft)
+12,0.415250240561366,Closest defender distance at release (ft)
+-2,0.363538130915165,Defender closing speed: ft closed in last 1s
+-1.5,0.362895276290178,Defender closing speed: ft closed in last 1s
+-1,0.365434700263292,Defender closing speed: ft closed in last 1s
+-0.5,0.368924914480746,Defender closing speed: ft closed in last 1s
+0,0.369631676649302,Defender closing speed: ft closed in last 1s
+0.5,0.371693713153154,Defender closing speed: ft closed in last 1s
+1,0.366208431381732,Defender closing speed: ft closed in last 1s
+1.5,0.36552000195682,Defender closing speed: ft closed in last 1s
+2,0.367371562710404,Defender closing speed: ft closed in last 1s
+2.5,0.369008415691555,Defender closing speed: ft closed in last 1s
+3,0.370537028905749,Defender closing speed: ft closed in last 1s
+3.5,0.372142005206645,Defender closing speed: ft closed in last 1s
+4,0.37310978153795,Defender closing speed: ft closed in last 1s
+4.5,0.374844067518413,Defender closing speed: ft closed in last 1s
+5,0.375190480206907,Defender closing speed: ft closed in last 1s
+5.5,0.371628170476854,Defender closing speed: ft closed in last 1s
+6,0.372401563918591,Defender closing speed: ft closed in last 1s
+6.5,0.372558737005293,Defender closing speed: ft closed in last 1s
+7,0.381084315750003,Defender closing speed: ft closed in last 1s
+7.5,0.378409988549352,Defender closing speed: ft closed in last 1s
+8,0.376964403314889,Defender closing speed: ft closed in last 1s
